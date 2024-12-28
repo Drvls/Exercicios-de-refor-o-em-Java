@@ -10,11 +10,15 @@ public class Exercicios_22 {
         // INCOMPLETO EXERCICIO FOR 5
 
         int n = sc.nextInt();
-        for (int i = (n - 1); i > 0 ; i--){
-            n *= i;
-        }
 
-        n = n == 0 ? 1 : n;
+        if(n == 0){
+            n = 1;
+        }
+        else{
+            for (int i = (n - 1); i > 0 ; i--){
+                n *= i;
+            }
+        }
         System.out.println(n);
 
         sc.close();
