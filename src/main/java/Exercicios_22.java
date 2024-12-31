@@ -7,8 +7,6 @@ public class Exercicios_22 {
         // Lembrando que, por definição, fatorial de 0 é 1.
         Scanner sc = new Scanner(System.in);
 
-        // INCOMPLETO EXERCICIO FOR 5
-
         int n = sc.nextInt();
 
         if(n == 0){
