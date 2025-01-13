@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-import entities.Product;
+import entities.Produto;
 
 public class Exercicios_27 {
     public static void produtos(String[] args){
         Scanner sc = new Scanner(System.in);
-        Product produto = new Product();
+        Produto produto = new Produto();
 
         System.out.println("Digite os dados do produto:");
         System.out.print("Nome: ");
