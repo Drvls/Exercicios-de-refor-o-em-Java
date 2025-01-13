@@ -9,7 +9,7 @@ import java.util.Locale;
 import entities.Employee;
 
 public class Exercicios_29 {
-    public static void main(String[] args){
+    public static void taxaEmpregado(String[] args){
         Scanner sc = new Scanner(System.in);
         Employee clt = new Employee();
         Locale.setDefault(Locale.US);
